@@ -4,7 +4,7 @@ return  document.querySelector(selector)
 
 function nestedTarget(){
   nested = document.getElementById("nested")
-return  nested.querySelector("target")
+return  nested.getElementByClassName("target")
 }
 
 function increaseRankBy(n){
