@@ -3,8 +3,8 @@ return  document.querySelector(selector)
 }
 
 function nestedTarget(){
-  nested = document.getElementById("nested")
-return  nested.getElementsByClassName("target")
+  nested = document.getElementById("nested").getElementsByClassName("target")
+return  nested
 }
 
 function increaseRankBy(n){
