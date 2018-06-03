@@ -8,8 +8,8 @@ return  nested
 }
 
 function increaseRankBy(n){
-  let ranks = getElementById("app").querySelectorAll("ul.ranked-list li")
-   return ranks.map(rank =>console.log(rank))
+  let ranks = doument.getElementById("app").querySelectorAll("ul.ranked-list li")
+   return ranks.map(rank => rank.innerHTML)
   // for (let i = 0; i < ranks.length; i++){
   // return  ranks[i].innerHTML = (ranks[i].innerHTML) + n
   // }
