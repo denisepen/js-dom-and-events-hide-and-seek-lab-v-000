@@ -10,7 +10,7 @@ return  nested
 function increaseRankBy(n){
   let ranks = getElementById("app").querySelectorAll("ul.ranked-list li")
    return ranks.map(rank => rank.innerHTML + n)
-  
+
 
 }
 
