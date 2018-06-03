@@ -8,7 +8,7 @@ return  nested
 }
 
 function increaseRankBy(n){
-  ranks = querySelectorAll(ul.ranked-list).querySelectorAll(li).innerHTML
+  ranks = querySelectorAll(ul.ranked-list).querySelectorAll(li)
   return ranks.map(rank => rank + n)
 }
 
