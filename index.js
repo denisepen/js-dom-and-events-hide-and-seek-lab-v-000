@@ -9,7 +9,7 @@ return  nested
 
 function increaseRankBy(n){
   ranks = querySelectorAll(ul.ranked-list li).innerHTML;
-  return ranks.map(rank => parseInt(rank) + n)
+  return ranks.map(rank => rank + n)
 }
 
 function deepestChild(){
